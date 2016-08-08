@@ -1,0 +1,36 @@
+# Site settings
+title: 2016 PUI Lab
+description: Website for the PUI Lab
+baseurl: /2016PUI
+url: "http://www.siyanz.com/" # the base hostname & protocol for your site
+#favicon
+favicon: /favicon.png
+
+
+#google analytics
+google_analytics_id : 
+#gplus
+gplus_username: 
+
+#fb_username
+fb_username: 
+
+#permalink /blog/2014/11/11/this-is-a-sample-post
+permalink: /blog/:year/:month/:day/:title
+# Build settings
+markdown: kramdown
+
+#Disqus configuration
+disqus_short_name: 
+disqus_show_comment_count:
+
+#Can be used for multiple author blogs ! Add name to post For more visit the sample
+authors:
+  siyanz:
+    display_name: Siyan Zhao
+    email: siyanz@andrew.cmu.edu
+    github: siyanz
+  annak:
+    display_name: Anna Kanustic
+    email:
+    github:

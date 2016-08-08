@@ -1,0 +1,32 @@
+---
+layout: default
+index: true
+---
+
+
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+              <!-- Blog Post Links -->
+              <h1>2016 PUI Labs</h1>
+
+              <h3>Announcements</h3>
+              <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                  {% for announce in site.categories.announcement %}
+                  <div class="announce-block">
+                    <h4><b>{{ announce.title }}</b></h4>
+                    <p>{{ announce.date | date: "%B %-d, %Y"}}</p>
+                    <p>{{ announce.content }}</p>
+                  {% endfor %}
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- End Sidebar -->
+            <div class="col-md-1"></div>
+         </div>
+

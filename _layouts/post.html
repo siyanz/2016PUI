@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+
+	  	
+	    <h1>{{ page.title }}</h1>
+	    
+	    <hr>
+	    <p class="post-meta">Posted on: {{ page.date | date: "%B %-d, %Y" }}</p>
+	    <p class="post-meta"><b>Due on: {{ page.dueDate | date: "%B %-d, %Y" }}</b>
+
+	   
+	  	<article class="blog-post-small blog-post-content">
+	    	{{ content }}
+	  	</article>
+	  	
+	  	
+	  	{% include author_block.html %}
+	</div>
+	<div class="col-md-1"></div>
+</div>

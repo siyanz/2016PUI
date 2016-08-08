@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Welcome"
+date:   2016-08-07
+categories: announcement
+author: siyanz
+---
+Welcome to the site. This is where you will get 
