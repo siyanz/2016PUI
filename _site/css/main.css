@@ -5634,7 +5634,8 @@ label, .control-label, .help-block, .checkbox, .radio {
   padding: 10px; }
 
 .footer a {
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: bold;
   text-decoration: none;
   color: #fff; }
   .footer a:after {
