@@ -1,3 +1,17 @@
+.announce-block {  
+    // border-style: solid;
+    // border-width: 2px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    -moz-box-shadow:    inset 0 0 4px #000000;
+    -webkit-box-shadow: inset 0 0 4px #000000;
+    box-shadow:         inset 0 0 4px #000000;
+
+}
+
 .blog-theme-class {
   margin-top:0.3%;
   padding:3%;

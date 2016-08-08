@@ -5,4 +5,4 @@ date:   2016-08-07
 categories: announcement
 author: siyanz
 ---
-Welcome to the site. This is where you will get 
+Welcome to the PUI Lab Fall 2016. This is where you will have access to homework assignments, lab lectures, and other course-related announcements.
