@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Assignment 0"
+fulltitle: "Assignment 0 – Good / Bad UIs"
 date:   2016-08-27
 dueDate: 2016-09-01 23:59:00
 categories: assignment
