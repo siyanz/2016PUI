@@ -16,7 +16,7 @@ gplus_username:
 fb_username: 
 
 #permalink /blog/2014/11/11/this-is-a-sample-post
-permalink: /blog/:year/:month/:day/:title
+permalink: /:path
 # Build settings
 markdown: kramdown
 

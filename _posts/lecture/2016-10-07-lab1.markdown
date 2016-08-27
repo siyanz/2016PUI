@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Assignment 1"
-date:   2016-08-07
+title:  "Lab 1"
+date:   2016-10-07
 dueDate: 2016-09-07 23:59:00 
-categories: assignment
+categories: lecture
 author: siyanz
 ---
 

@@ -6,3 +6,25 @@ categories: announcement
 author: siyanz
 ---
 Welcome to the PUI Lab Fall 2016. This is where you will have access to homework assignments, lab lectures, and other course-related announcements.
+
+
+**Lab A**
+
+Monday 9:00 - 10:20 am @ GHC 4211  
+
+Instructor: Anna Kasunic
+
+ * Third-year PhD student at HCII
+ * Email: amkasunic{at}gmail.com
+ * Office Hour: NSH 2611, Monday 3:30 - 5:30 or by appointment
+
+
+**Lab B**
+
+Wednesday 9:00 - 10:20 am @ GHC 4211
+
+Instructor: Siyan Zhao
+
+ * Second-year PhD student at HCII
+ * Email: siyanz{at}andrew.cmu.edu
+ * Office Hour: NSH 4501, Wednesday 3:00 - 5:00 or by appointment

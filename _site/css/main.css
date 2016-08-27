@@ -5584,6 +5584,9 @@ label, .control-label, .help-block, .checkbox, .radio {
   .blog-post-small p {
     font-size: 14.43px; }
 
+.post-title {
+  padding-top: 20px; }
+
 .navbar {
   margin-bottom: 0px; }
 
