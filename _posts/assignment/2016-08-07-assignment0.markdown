@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 0"
 date:   2016-08-27
-dueDate: 2016-09-01 23:59:00 -0400
+dueDate: 2016-09-01 23:59:00
 categories: assignment
 author: siyanz
 permalink: assignments/assignment0
