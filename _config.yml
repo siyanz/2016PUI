@@ -1,6 +1,6 @@
 # Site settings
 title: 2016 PUI Lab
-description: Website for the PUI Lab
+description: Website for 2016 PUI Lab
 baseurl: /2016PUI
 url: "http://www.siyanz.com/" # the base hostname & protocol for your site
 #favicon
@@ -9,16 +9,30 @@ favicon: /favicon.png
 
 #google analytics
 google_analytics_id : 
-#gplus
-gplus_username: 
 
 #fb_username
 fb_username: 
 
-#permalink /blog/2014/11/11/this-is-a-sample-post
 permalink: /:path
 # Build settings
 markdown: kramdown
+
+remarkConfig:
+  # possible highlight options:
+  # arta, ascetic, dark, default, far, github, googlecode, idea, ir_black,
+  # magula, monokai, rainbow, solarized-dark, solarized-light, sunburst,
+  # tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night,
+  # tomorrow-night-eighties, vs, zenburn.
+  highlightStyle: 'default'
+  highlightLanguage: 'remark'
+  highlightLines: true
+
+collections:
+  slides:
+      layout: remark
+      permalink: /slides/:path/
+      output: true
+
 
 #Disqus configuration
 disqus_short_name: 

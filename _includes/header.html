@@ -28,9 +28,9 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lab slides<b class="caret"></b></a>
             <ul class="dropdown-menu">
-            {% for lab in site.categories.lecture %}
+            {% for lab in site.slides %}
               {% if lab.title %}
-                <li><a href="{{ lab.url | prepend: site.baseurl }}" style="text-transform : uppercase;">{{ lab.title }}</a></li>
+                <li><a href="{{ lab.url | prepend: site.baseurl }}" target="blank" style="text-transform : uppercase;">{{ lab.title }}</a></li>
               {% endif %}
             {% endfor %}
             </ul>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" href="{{ "/css/slides.css" | prepend: site.baseurl }}">
+    </head>
+    <body>
+        <!--Remark-->
+        <script src="{{site.baseurl}}/js/remark.min.js" type="text/javascript"></script>
+        <script>
+          var hljs = remark.highlighter.engine;
+        </script>
+        <script src="{{site.baseurl}}/js/remark.language.js"></script>
+        <script>
+          var slideshow = remark.create({
+            sourceUrl: '{{page.slidesFileName}}',
+            highlightStyle: '{{site.remarkConfig.highlightStyle}}',
+            highlightLanguage: '{{site.remarkConfig.highlightLanguage}}',
+            highlightLines: {{site.remarkConfig.highlightLines}}
+        });
+        </script>
+    </body>
+</html>
