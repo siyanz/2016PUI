@@ -12,7 +12,7 @@ h1, h2, h3 {
   line-height: 60pt;
 }
 p {
-  font-size: 16pt;
+  font-size: 14pt;
 }
 .remark-slide-content h1 { 
   font-size: 3em; 
@@ -102,6 +102,14 @@ code {
 
 .middle {
   vertical-align: middle;
+}
+
+.footnote {
+  font-size: 10pt;
+}
+
+.img-resize img{
+  width: 80%;
 }
 
 /* Two-column layout */

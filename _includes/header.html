@@ -29,7 +29,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lab slides<b class="caret"></b></a>
             <ul class="dropdown-menu">
             {% for lab in site.slides %}
-              {% if lab.title %}
+              {% if lab.visible %}
                 <li><a href="{{ lab.url | prepend: site.baseurl }}" target="blank" style="text-transform : uppercase;">{{ lab.title }}</a></li>
               {% endif %}
             {% endfor %}

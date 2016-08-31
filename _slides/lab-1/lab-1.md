@@ -34,3 +34,5 @@ class: middle
 - Joint lab next Wed 8/31 @ ** NSH 1507 **
 
 - Upload Assignment 0 by 11:59 pm tomorrow!
+
+- No office hours today.
