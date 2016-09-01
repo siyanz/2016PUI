@@ -11,8 +11,9 @@ h1, h2, h3 {
   margin-bottom: 0;
   line-height: 60pt;
 }
-p {
-  font-size: 14pt;
+p, li {
+  font-size: 16pt;
+  line-height: 1.5em;
 }
 .remark-slide-content h1 { 
   font-size: 3em; 
