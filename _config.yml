@@ -23,7 +23,7 @@ remarkConfig:
   # magula, monokai, rainbow, solarized-dark, solarized-light, sunburst,
   # tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night,
   # tomorrow-night-eighties, vs, zenburn.
-  highlightStyle: 'default'
+  highlightStyle: 'solarized-dark'
   highlightLanguage: 'remark'
   highlightLines: true
 

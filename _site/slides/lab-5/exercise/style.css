@@ -1,0 +1,16 @@
+form[name="myChecklist"] { /* form with name of myChecklist */
+	padding: 10px 20px;
+	width: 250px;
+	background-color: #eee;
+	border-radius: 5px;
+}
+
+input[type="button"] {
+	border: none;
+	box-shadow: none;
+	border-radius: 2px;
+	background-color: #B1EF0C;
+	padding: 5px 10px;
+	margin: 0px 10px;
+	color: #333;
+}

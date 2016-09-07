@@ -17,7 +17,7 @@ p, li {
 }
 .remark-slide-content h1 { 
   font-size: 3em; 
-  padding-bottom: 30pt;
+  padding-bottom: 20pt;
 }
 .remark-slide-content h2 { font-size: 2em; }
 .remark-slide-content h3 { font-size: 1.6em; }
@@ -36,7 +36,14 @@ code {
   background: #e7e8e2;
   border-radius: 5px;
 }
-.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+.remark-code, .remark-inline-code { 
+  font-family: 'Ubuntu Mono'; 
+  line-height: 1.2em; 
+}
+
+.remark-code-line {
+  padding: 5px 20px 5px 20px;
+}
 .remark-code-line-highlighted     { background-color: #373832; }
 .pull-left {
   float: left;
@@ -106,11 +113,15 @@ code {
 }
 
 .footnote {
-  font-size: 10pt;
+  font-size: 9pt;
 }
 
-.img-resize img{
+.img-w80 img{
   width: 80%;
+}
+
+.img-w65 img{
+  width: 65%;
 }
 
 /* Two-column layout */

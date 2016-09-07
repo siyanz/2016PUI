@@ -5,6 +5,13 @@ class: middle, center, inverse
 ### 2016.9.7 PUI lab ###
 
 ---
+# Announcements
+
+- Switching between lab A/B
+
+- Assignment 1: Due on Sep 20 11:59 pm
+
+---
 
 # Today #
 
@@ -18,11 +25,7 @@ class: middle, center, inverse
 
 class: middle, inverse
 
-# Low-Fidelity Paper Prototyping
-
----
-
-.center[![an example](./img/paper-proto.jpg)]
+# Low-Fidelity [Paper Prototyping](https://www.youtube.com/watch?v=_5FGeSQ7DBU)
 
 ---
 class: middle, inverse
@@ -61,6 +64,18 @@ class: middle, inverse
 class: middle, inverse
 
 # Exercise
+
+---
+# Exercise
+
+* 20 min: Paper prototype 1
+ * Take screen shot of your prototypes! (need to submit to Blackboard after lab)
+
+* 20 min: User test with 2 students
+
+* 15 min: Refine prototype
+
+* (10 min: User test with 1 student)
 
 
 
