@@ -77,5 +77,17 @@ class: middle, inverse
 
 * (10 min: User test with 1 student)
 
+---
+# Assignment
+* Iterate your design based on feedback you got today
 
+* Include all 3 features
+
+* User testing with 2 pre-assigned people from the class
+
+* Competative Analysis
+
+* Write-up
+
+---
 
