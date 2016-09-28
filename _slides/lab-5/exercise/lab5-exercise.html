@@ -3,18 +3,52 @@
 
 		<head>		
 			<title></title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<!-- <script src="script.js"></script> -->
-			<link rel="stylesheet" type="text/css" href="./style.css">
+			<link rel="stylesheet" type="text/css" href="./css/style.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		</head>
 
 		<body>
-			<div id="checklist">		
-				<form name="myChecklist">	
-					<input type="text" name="textInput">
-					<input type="button" value="Add Item">
-				</form>
+			
+		<body>
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+							<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</button>
 
-				<div id="checkList"></div>
+					<a class="navbar-brand">
+						<h2 style="margin-top: 0;">Warm Thoughts</h2>
+					</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Settings</a></li>
+						<li><a href="#">About the site</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div id="container">
+				<div id="controls row">
+					<p class="col-xs-3">Send to:</p>
+					<input id="contactName" class="col-xs-7" type="text" placeholder="Search in contact">
+					<button class="col-xs-2" type="button" class="btn btn-default" onclick="contacts()">
+					  <span class="glyphicon glyphicon-user"></span>
+					</button>
+				</div>
+				<div class="row">
+					<button id="sendButton" class="col-xs-8 offset-xs-2" type="button" class="btn btn-default" style="visibility: hidden;">
+						Send your friend a nice thought!
+					</button>
+				</div>
 			</div>
+		
+		<script type="text/javascript" src="js/script.js"></script>	
 		</body>
 	</html>
