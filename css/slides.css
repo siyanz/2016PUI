@@ -113,6 +113,14 @@ code {
   vertical-align: middle;
 }
 
+.left {
+  vertical-align: left;
+}
+
+.right {
+  vertical-align: right;
+}
+
 .footnote {
   font-size: 9pt;
 }
@@ -123,6 +131,32 @@ code {
 
 .img-w65 img{
   width: 65%;
+}
+
+.img-w45 img{
+  width: 45%;
+}
+
+/* Tables */
+tbody {
+  line-height: 36pt;
+}
+
+thead {
+    text-align: left;
+    font-size: 18pt;
+    line-height: 32pt;
+    background-color: #eeeeee;
+}
+
+th, td{
+  padding: 0 15px;
+}
+
+tbody td {
+  font-family: monospace;
+  font-size: 13pt;
+  border-bottom: dotted #aaa 1px;
 }
 
 /* Two-column layout */
