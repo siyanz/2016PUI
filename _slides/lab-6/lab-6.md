@@ -90,3 +90,5 @@ array.forEach(function(item){}); | .each(function(i, val){});
 * DOM basics
 
 * Traversing the DOM tree
+
+* Code and Exercise handout on Piazza
