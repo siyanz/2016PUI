@@ -10,22 +10,22 @@ function contacts()
 
 // onload is needed to get hold of the elements 
 // getElementById returns null if line 2 & 3 are called before onload 
-window.onload = function(){
+// window.onload = function(){
 	// Save the elements to variables so that they can be used later 
-	var inp = document.getElementById("contactName");
-	var but = document.getElementById("sendButton");
+var inp = document.getElementById("contactName");
+var but = document.getElementById("sendButton");
 
-	// onchange is called whenever there is a change to the input 
-	inp.onchange = function(){
-		// First check if the value for input box is empty
-		// If yes, change the visibility of the button to visible
-		if (inp.value != ""){
-			but.style.visibility = "visible";
-		} else {
-			but.style.visibility = "hidden";
-		}
-	}; 
-};
+// onchange is called whenever there is a change to the input 
+inp.onchange = function(){
+	// First check if the value for input box is empty
+	// If yes, change the visibility of the button to visible
+	if (inp.value != ""){
+		but.style.visibility = "visible";
+	} else {
+		but.style.visibility = "hidden";
+	}
+}; 
+// };
 
 /* Another way of implementing the same thing without onload
 function contacts()

@@ -1,0 +1,21 @@
+.outer {
+	width: 300px;
+	height: 300px;
+}
+
+.inner {
+	width: 120px;
+	height: 120px;
+}
+
+.red {
+	background-color: #e25555;
+}
+
+.green {
+	background-color: #55e255;
+}
+
+.orange {
+	background-color: #ffccaa
+}
