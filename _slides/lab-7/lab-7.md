@@ -172,7 +172,7 @@ class: middle, center, inverse
 # Absolute Position
 * Behaves like:
  * _fixed_ when none of its parent or parent's parent or patent's parent's parent... has static position
- * _relative_ when one of its ancestry is relative
+ * _relative_ when one of its ancestry is static positioned
 
 ---
 class: middle, center, inverse
