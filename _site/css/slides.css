@@ -37,6 +37,7 @@ li {
 
 .red { color: #fa0000; }
 .large { font-size: 2em; }
+.grey { color: #eee; }
 a, a > code {
   color: rgb(249, 38, 114);
   text-decoration: none;
@@ -47,13 +48,13 @@ code {
 }
 .remark-code, .remark-inline-code { 
   font-family: 'Ubuntu Mono'; 
-  line-height: 1.2em; 
+  line-height: 1em; 
   font-size: 16px;
 }
 
-.remark-code-line {
+/*.remark-code-line {
   padding: 5px 20px 5px 20px;
-}
+}*/
 .remark-code-line-highlighted     { background-color: #373832; }
 .pull-left {
   float: left;
