@@ -36,8 +36,9 @@ class: middle, inverse
 * Having a structure to your folder
 
 * Separating CSS and JavaScript code from your HTML
+
 ```html
-// do NOT to do this!
+<!-- do NOT to do this! -->
 <head>
 		<style>
 			body {
@@ -50,6 +51,7 @@ class: middle, inverse
 		</style>
 </head>
 ```
+
 ---
 # These practices are from many experts
 
@@ -64,18 +66,19 @@ class: middle, inverse
 		<script type='text/javascript' src='jquery.js?ver=1.3.2'></script>
 	</body>
 </html>
-```	
+```
 
 ---
 # These practices are from many experts
 
-.grey[* Having a structure to your folder]
+* Having a structure to your folder
 
 * Separating CSS and JavaScript code from your HTML
 
 * Put JavaScript files at the bottom
 
 * Indent your HTML code
+
 ---
 # Bad indentation
 
