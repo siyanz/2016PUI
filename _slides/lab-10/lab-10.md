@@ -1,6 +1,6 @@
 class: middle, center, inverse
 
-# Useful tools #
+# Assignment Ideation #
 
 ### 2016.11.3 ###
 
