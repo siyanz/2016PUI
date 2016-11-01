@@ -1,44 +1,29 @@
- window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1790789947842345',
-      xfbml      : true,
-      version    : 'v2.8'
-    });
+var ctx = $("#myChart");
 
-    FB.ui(
-   {
-      method: 'share',
-      href: 'http://gmail.com',
-    }, 
-    // callback
-  function(response) {
-    if (response && !response.error_message) {
-      alert('Posting completed.');
-    } else {
-      alert('Error while posting.');
+function dataGenerator(n) {
+  var data = [];
+  for (i = 0; i < n; i++) {
+    data[i] = Math.floor((Math.random() * 10) + 1);
+  }
+  return data;
+}
+
+var data = dataGenerator(6);
+var dataInput = {
+  labels: ["random1", "my cat's weight", "my cat's age", "# of dumplings I can eat per bite",
+              "amount of kids I will have", "# of beer I can tolerate"],
+  datasets: [
+    {
+      label: "test data",
+      data: data,
     }
-  });
-
-  FB.login(function(response) {
-    if (response.authResponse) {
-     console.log('Welcome!  Fetching your information.... ');
-     FB.api('/me', function(response) {
-       console.log('Good to see you, ' + response.name + '.');
-     });
-    } else {
-     console.log('User cancelled login or did not fully authorize.');
-    }
-  });
-
-};
-
-
-
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
+  ]
+}
+console.log(ctx);
+var chartInstance = new Chart(ctx, {
+  type: 'bar',
+  data: dataInput,
+  options: {
+    responsive: true
+  }
+});
