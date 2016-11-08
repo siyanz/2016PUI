@@ -125,11 +125,13 @@ Let's check out the DOM structure now
 ---
 # Why should we use groups? Thoughts?
 
+
+
 ---
 # You can interact with each element
 Let's move the two circles simultaneously by (20, 20) when mouse over
 ```js
-d3.select("circle")
+d3.selectAll("circle")
 .on("mouseover", mouseover);
 
 function mouseover(d) {
