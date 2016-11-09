@@ -7,9 +7,9 @@ class: middle, center, inverse
 ---
 # Logistics
 
-* Assignment 5 due tonight
+* Assignment 5 due Friday tonight
 
-* Any last minute questions?
+* Any questions?
 
 ---
 # Today
