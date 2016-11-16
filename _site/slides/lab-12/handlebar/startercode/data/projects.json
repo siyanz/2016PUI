@@ -1,0 +1,4 @@
+{"projects":[
+	{"name": "placehold", "id": "placehold", img": "http://placehold.it/500x300"},
+	{"name": "kitten", "id": "kitten", "img": "http://placekitten.com/500/300"}
+]}
